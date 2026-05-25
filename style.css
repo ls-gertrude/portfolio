@@ -1,0 +1,48 @@
+/* 1. The Vibe (Soft background & readable text) */
+body {
+    background-color: #cad2c5; /* Your calming soft gray-green background */
+    color: #2f3e46;            /* Normal dark text so it's easy to read */
+    font-family: Arial, sans-serif; /* Standard, clean font */
+    max-width: 600px;          /* Puts everything in a neat middle column */
+    margin: 40px auto;         /* Centers the page on the screen */
+    padding: 20px;
+}
+
+/* 2. Top Navigation Links */
+nav, p[align="center"] {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;            /* Spaces out your header links */
+    font-weight: bold;
+}
+
+/* 3. THE IMAGE FIX 📸 (Making Gojo a normal size) */
+img {
+    display: block;
+    width: 200px;             /* Forces the image to be a normal, neat size */
+    border-radius: 10px;       /* Gives it nice, slightly rounded corners */
+    margin: 20px auto;         /* Centers the image perfectly */
+}
+
+/* 4. Fix for the Bullets */
+ul {
+    list-style-position: inside; /* Pulls the bullets inside so they stay glued to the text */
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 8px;        /* Simple spacing for your profile info */
+}
+
+/* 5. Center the Quote and Footer Icons */
+blockquote, footer {
+    text-align: center;
+    font-style: italic;
+}
+
+footer p a {
+    margin: 0 10px;            /* Spaces your social media links out neatly */
+    font-size: 20px;           /* Makes the icons a normal clickable size */
+}
